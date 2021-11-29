@@ -1,2 +1,2 @@
-FROM engineervix/pyinstaller-windows:python3
+FROM whitegecko/pyinstaller:master-py3-win64
 ENTRYPOINT []
