@@ -31,7 +31,7 @@ jobs:
         with:
           context: ./py3/
           push: true
-          tags: python3
+          tags: mingyu01/docker-pyinstaller-windows-ci:python3
           labels: python3
       
       - name: Build and push Python2 image
@@ -39,6 +39,6 @@ jobs:
         with:
           context: ./py2/
           push: true
-          tags: python2
+          tags: mingyu01/docker-pyinstaller-windows-ci:python2
           labels: python2
           
